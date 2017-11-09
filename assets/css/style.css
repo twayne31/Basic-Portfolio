@@ -1,25 +1,43 @@
 body{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: lightgrey;
+	/*change background image
+	background: url(pic);
+	height: 100vh;
+	*/
 }
 
 .navbar{
 	float: right;
 	height: 100%;
-	background-color: black;
+	position: relative;
+	top: 35px;
+    right: 154px;
 
 }
 ul{
 	margin: 0;
 	padding: 0;
+	color: lightgrey;
 }
 li{
 	display: inline
 }
+a{
+	text-decoration: none;
+	color: lightgrey;
+}
+a:hover{
+	color: #4aaaa5;
+	text-decoration: bold;
+}
 
 header{
-	padding: 20px;
-  	background: #fff;
-  	overflow: auto;
+  	height: 85px;
+    background: #fff;
+    overflow: auto;
+    position: relative;
+    border-bottom: grey solid 3px;
 }
 
 h1{
@@ -27,14 +45,25 @@ h1{
     background-color: #4aaaa5;
     color: #fff;
     display: inline;
-    padding-top: 28px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom:28px;
-    margin-left: 70px;
+    float: left;
+    padding: 25px;
+    margin-left: 153px;
+    height: 36px;
+    top: -21px;
+    position: relative;
 }
 
 h2{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+.Contact-Me{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+h3{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	margin-left: 30px;
@@ -42,43 +71,168 @@ h2{
 }
 img{
 	width: 200px;
-	height: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    left: 22px;
+    top: 26px;
+}
+hr{
+	width: 575px;
+}
+#hr2{
+	width: 200px;
+}
+
+.img-box{
 	float: left;
 }
-
 .container{
 	background-color:#dddddd;
+	width: 960px;
+	margin: 0 auto;
+
 }
 
-aside{
+.rel-box{
+	position: relative;
+}
+
+.side-box{
+    width: 270px;
+    height: 195px;
+    float: right;
+    border: solid 1px black;
+    background-color: white;
+    margin-top: 25px;
+}
+.small-icon{
+	width: 70px;
+    height: 70px;
+    float: left;
+    margin: 1px;
+}
+.small-icon-so{
+	width: 62px;
+    height: 62px;
+    float: left;
+    top: 31px;
+}
+.main-box{
+	box-sizing: border-box;
 	background-color: white;
     border: solid grey 1px;
     width: 650px;
-    height: 317px;
-    margin-left: 90px;
     float: left;
-    margin-top: 45px;
-    margin-bottom:30px; 
+    padding: 30px;
+    margin: 25px 0;
 }
 
 #full{
 	overflow: auto;
+	background-color: lightgrey;
+/*	position: relative;
+*/}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    margin-top:25px;
 }
 
+input[name=message]{
+	width: 100%;
+    padding: 10px 30px;
+    height: 185px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
 
 
 footer{
 	background-color: #666666;
-    padding: 20px;
+    padding: 25px;
     color: white;
     text-align: center;
-    position: fixed;
     width: 100%;
+    font-size: 15px;
     bottom: 0;
+    border-top: #4aaaa5 5px solid;
 }
 
 p{
 	padding: 20px;
 	line-height: 200%;
 }
+
+.box1{
+	width: 40%;
+	height: auto;
+	border: 1px solid black;
+}
+
+.box2{
+	width: 40%;
+	height: auto;
+	border: 1px solid green;
+}
+
+/*.turqBox1{
+	right: 830px;
+    width: 237px;
+    background-color: #4aaaa5;
+    height: 35px;
+    position: absolute;
+    top: 0;
+}
+
+.turqBox2{
+	right: 563px;
+    width: 237px;
+    background-color: #4aaaa5;
+    height: 35px;
+    position: absolute;
+	top: -48px;
+    z-index: 2;
+    left: 22px;*/
+}
+
+/* .turqBox1Font{
+	position: absolute;
+    color: white;
+    left: 262px;
+    bottom: 21px;
+}
+
+.turqBox2Font{
+	position: absolute;
+    color: white;
+    left: 262px;
+    bottom: 21px;
+}*/
+
+
 
