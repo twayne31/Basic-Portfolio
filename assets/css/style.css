@@ -29,6 +29,7 @@ a{
 }
 a:hover{
 	color: #4aaaa5;
+	text-decoration: bold;
 }
 
 header{
@@ -36,6 +37,7 @@ header{
     background: #fff;
     overflow: auto;
     position: relative;
+    border-bottom: grey solid 3px;
 }
 
 h1{
@@ -54,8 +56,11 @@ h1{
 h2{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
-	margin-left: 30px;
-	margin-top:  20px;
+}
+
+.Contact-Me{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
 }
 
 h3{
@@ -74,16 +79,24 @@ img{
     top: 26px;
 }
 hr{
-	width: 590px;
+	width: 575px;
 }
 #hr2{
 	width: 200px;
+}
+
+.img-box{
+	float: left;
 }
 .container{
 	background-color:#dddddd;
 	width: 960px;
 	margin: 0 auto;
 
+}
+
+.rel-box{
+	position: relative;
 }
 
 .side-box{
@@ -122,14 +135,50 @@ hr{
 /*	position: relative;
 */}
 
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    margin-top:25px;
+}
+
+input[name=message]{
+	width: 100%;
+    padding: 10px 30px;
+    height: 185px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
 
 
 footer{
 	background-color: #666666;
-    padding: 20px;
+    padding: 25px;
     color: white;
     text-align: center;
     width: 100%;
+    font-size: 15px;
     bottom: 0;
     border-top: #4aaaa5 5px solid;
 }
@@ -138,4 +187,52 @@ p{
 	padding: 20px;
 	line-height: 200%;
 }
+
+.box1{
+	width: 40%;
+	height: auto;
+	border: 1px solid black;
+}
+
+.box2{
+	width: 40%;
+	height: auto;
+	border: 1px solid green;
+}
+
+/*.turqBox1{
+	right: 830px;
+    width: 237px;
+    background-color: #4aaaa5;
+    height: 35px;
+    position: absolute;
+    top: 0;
+}
+
+.turqBox2{
+	right: 563px;
+    width: 237px;
+    background-color: #4aaaa5;
+    height: 35px;
+    position: absolute;
+	top: -48px;
+    z-index: 2;
+    left: 22px;*/
+}
+
+/* .turqBox1Font{
+	position: absolute;
+    color: white;
+    left: 262px;
+    bottom: 21px;
+}
+
+.turqBox2Font{
+	position: absolute;
+    color: white;
+    left: 262px;
+    bottom: 21px;
+}*/
+
+
 
