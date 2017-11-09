@@ -1,10 +1,8 @@
 body{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background-color: lightgrey;
-	/*change background image
-	background: url(pic);
+	background-color: orange;
+	background:url("../images/geometry.png");
 	height: 100vh;
-	*/
 }
 
 .navbar{
@@ -95,9 +93,6 @@ hr{
 
 }
 
-.rel-box{
-	position: relative;
-}
 
 .side-box{
     width: 270px;
@@ -131,7 +126,7 @@ hr{
 
 #full{
 	overflow: auto;
-	background-color: lightgrey;
+	background-image: url("../images/geometry.png");
 /*	position: relative;
 */}
 
@@ -173,6 +168,7 @@ input[type=submit] {
 
 
 footer{
+	margin-top: 15px;
 	background-color: #666666;
     padding: 25px;
     color: white;
@@ -181,6 +177,7 @@ footer{
     font-size: 15px;
     bottom: 0;
     border-top: #4aaaa5 5px solid;
+    position: fixed;
 }
 
 p{
@@ -189,13 +186,13 @@ p{
 }
 
 .box1{
-	width: 40%;
+	width: 250px;
 	height: auto;
 	border: 1px solid black;
 }
 
 .box2{
-	width: 40%;
+	width: 250px;
 	height: auto;
 	border: 1px solid green;
 }
