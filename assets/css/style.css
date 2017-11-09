@@ -1,25 +1,41 @@
 body{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: lightgrey;
+	/*change background image
+	background: url(pic);
+	height: 100vh;
+	*/
 }
 
 .navbar{
 	float: right;
 	height: 100%;
-	background-color: black;
+	position: relative;
+	top: 35px;
+    right: 154px;
 
 }
 ul{
 	margin: 0;
 	padding: 0;
+	color: lightgrey;
 }
 li{
 	display: inline
 }
+a{
+	text-decoration: none;
+	color: lightgrey;
+}
+a:hover{
+	color: #4aaaa5;
+}
 
 header{
-	padding: 20px;
-  	background: #fff;
-  	overflow: auto;
+  	height: 85px;
+    background: #fff;
+    overflow: auto;
+    position: relative;
 }
 
 h1{
@@ -27,11 +43,12 @@ h1{
     background-color: #4aaaa5;
     color: #fff;
     display: inline;
-    padding-top: 28px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom:28px;
-    margin-left: 70px;
+    float: left;
+    padding: 25px;
+    margin-left: 153px;
+    height: 36px;
+    top: -21px;
+    position: relative;
 }
 
 h2{
@@ -40,30 +57,70 @@ h2{
 	margin-left: 30px;
 	margin-top:  20px;
 }
+
+h3{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	margin-left: 30px;
+	margin-top:  20px;
+}
 img{
 	width: 200px;
-	height: 200px;
-	float: left;
+    height: 200px;
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    left: 22px;
+    top: 26px;
 }
-
+hr{
+	width: 590px;
+}
+#hr2{
+	width: 200px;
+}
 .container{
 	background-color:#dddddd;
+	width: 960px;
+	margin: 0 auto;
+
 }
 
-aside{
+.side-box{
+    width: 270px;
+    height: 195px;
+    float: right;
+    border: solid 1px black;
+    background-color: white;
+    margin-top: 25px;
+}
+.small-icon{
+	width: 70px;
+    height: 70px;
+    float: left;
+    margin: 1px;
+}
+.small-icon-so{
+	width: 62px;
+    height: 62px;
+    float: left;
+    top: 31px;
+}
+.main-box{
+	box-sizing: border-box;
 	background-color: white;
     border: solid grey 1px;
     width: 650px;
-    height: 317px;
-    margin-left: 90px;
     float: left;
-    margin-top: 45px;
-    margin-bottom:30px; 
+    padding: 30px;
+    margin: 25px 0;
 }
 
 #full{
 	overflow: auto;
-}
+	background-color: lightgrey;
+/*	position: relative;
+*/}
 
 
 
@@ -72,9 +129,9 @@ footer{
     padding: 20px;
     color: white;
     text-align: center;
-    position: fixed;
     width: 100%;
     bottom: 0;
+    border-top: #4aaaa5 5px solid;
 }
 
 p{
